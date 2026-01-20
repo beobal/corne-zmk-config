@@ -6,14 +6,14 @@ parse_config:
       tap: ""
       type: none
 
-    "&hml LS(LA(LCTRL)) D":
+    "&hml LS(LA(LC(LCMD))) D":
       tap: D
-      hold: $$mdi:rocket$$ # Meh
-    "&hmr LS(LA(LCTRL)) H":
+      hold: $$mdi:rocket$$ # Hyper
+    "&hmr LS(LA(LC(LCMD))) H":
       tap: H
-      hold: $$mdi:rocket$$ # Meh
+      hold: $$mdi:rocket$$ # Hyper
 
-    "&kp LS(LA(LCTRL))": $$mdi:rocket$$ # Meh
+    "&kp LS(LA(LC(LCMD)))": $$mdi:rocket$$ # Hyper
 
     "&caps_word": $$mdi:alpha-w-box$$
 
