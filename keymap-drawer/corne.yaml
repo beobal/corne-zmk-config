@@ -13,7 +13,7 @@ layers:
   - Y
   - ''''
   - {type: none}
-  - {type: none}
+  - $$mdi:keyboard-esc$$
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
@@ -38,11 +38,11 @@ layers:
   - ;
   - {type: none}
   - {t: '$$mdi:keyboard-tab$$', h: num}
-  - {t: '$$mdi:keyboard-space$$', h: sym}
-  - {t: '$$mdi:keyboard-return$$', h: nav}
-  - {t: '$$mdi:keyboard-space$$', h: sym}
+  - $$mdi:keyboard-space$$
+  - nav
+  - sym
   - $$mdi:backspace-outline$$
-  - {t: '$$mdi:keyboard-return$$', h: nav}
+  - {t: '$$mdi:keyboard-return$$', h: num}
   num:
   - {type: none}
   - F1
@@ -124,9 +124,9 @@ layers:
   - $
   - /
   - {type: none}
+  - {type: none}
+  - {type: none}
   - {type: held}
-  - {type: none}
-  - {type: none}
   - {type: none}
   - {type: none}
   nav:
@@ -138,8 +138,8 @@ layers:
   - {type: none}
   - $$mdi:transfer-up$$
   - $$mdi:transfer-left$$
-  - $$mdi:arrow-up-bold$$
   - $$mdi:transfer-right$$
+  - {type: none}
   - $$mdi:backspace-reverse-outline$$
   - {type: none}
   - {type: none}
@@ -148,9 +148,9 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - {type: none}
-  - $$mdi:transfer-down$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:backspace-outline$$
   - {type: none}
@@ -160,7 +160,7 @@ layers:
   - {type: none}
   - $$mdi:rocket$$
   - {type: none}
-  - {type: none}
+  - $$mdi:transfer-down$$
   - $$mdi:skip-previous$$
   - $$mdi:play-pause$$
   - $$mdi:skip-next$$
