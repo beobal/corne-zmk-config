@@ -134,7 +134,7 @@ layers:
   - {t: '$$mdi:lightbulb-on-outline$$', h: '$$mdi:minus$$'}
   - {t: '$$mdi:lightbulb-on-outline$$', h: '$$mdi:plus$$'}
   - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
+  - $$mdi:play-pause$$
   - {type: none}
   - $$mdi:transfer-up$$
   - $$mdi:transfer-left$$
@@ -158,12 +158,12 @@ layers:
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {type: none}
-  - $$mdi:rocket$$
+  - BL TOG
   - {type: none}
   - $$mdi:transfer-down$$
   - $$mdi:skip-previous$$
   - $$mdi:play-pause$$
-  - $$mdi:skip-next$$
+  - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
