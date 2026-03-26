@@ -138,9 +138,9 @@
         nav_layer {
             display-name = "nav";
             bindings = <
-    ___     &kp C_BRI_DN &kp C_BRI_UP &kp C_VOL_DN &kp C_VOL_UP ___          &kp PG_UP &kp HOME     &kp END    ___          &kp DEL  ___
+    ___     &kp C_BRI_DN &kp C_BRI_UP &kp C_VOL_DN &kp C_PP     ___          &kp PG_UP &kp HOME     &kp END    ___          &kp DEL  ___
     ___     &kp LCTRL    &kp LALT     &kp LSHFT    &kp LCMD     ___          &kp LEFT  &kp DOWN     &kp UP     &kp RIGHT    &kp BSPC ___
-    ___     &bt BT_SEL 0 &bt BT_SEL 1 ___          &kp HYPER    ___          &kp PG_DN &kp C_PREV   &kp C_PP   &kp C_NEXT   ___      ___
+    ___     &bt BT_SEL 0 &bt BT_SEL 1 ___          &kp BL_TOG   ___          &kp PG_DN &kp C_PREV   &kp C_PP   ___          ___      ___
                                   ___          ___          ___          ___       ___          ___
             >;
         };
