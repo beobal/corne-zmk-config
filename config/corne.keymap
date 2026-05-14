@@ -53,8 +53,8 @@
 #define RALT_I  &hmr RALT  I
 #define RCTRL_O &hmr RCTRL O
 
-#define NUM_TAB   &lt NUM TAB
-#define NUM_RET   &lt NUM RET
+#define SYM_SPACE   &lt SYM SPACE
+#define SYM_BSPC    &lt SYM BSPC
 
 &lt {
     flavor = "balanced";
@@ -108,40 +108,40 @@
         base_layer {
             display-name = "base";
             bindings = <
-    ___     &kp Q        &kp W        &kp F        &kp P        &kp B        &kp J     &kp L        &kp U      &kp Y        &kp SQT  ___
-    &kp ESC LCTRL_A      LALT_R       LSHFT_S      LCMD_T       &kp G        &kp M     RCMD_N       RSHFT_E    RALT_I       RCTRL_O  ___
-    ___     &kp Z        &kp X        &kp C        HYPER_D      &kp V        &kp K     HYPER_H      &kp COMMA  &kp DOT      &kp SEMI ___
-                                  NUM_TAB      &kp SPACE    &mo NAV      &mo SYM   &kp BSPC     NUM_RET
+    ___          &kp Q        &kp W        &kp F        &kp P        &kp B        &kp J     &kp L        &kp U      &kp Y        &kp SQT  &kp LG(GRAVE)
+    &kp ESC      LCTRL_A      LALT_R       LSHFT_S      LCMD_T       &kp G        &kp M     RCMD_N       RSHFT_E    RALT_I       RCTRL_O  &kp FSLH
+    ___          &kp Z        &kp X        &kp C        HYPER_D      &kp V        &kp K     HYPER_H      &kp COMMA  &kp DOT      &kp SEMI &kp BSLH
+                                           &kp TAB      SYM_SPACE    &mo NAV      &mo NUM   SYM_BSPC     &kp RET
             >;
         };
 
         num_layer {
             display-name = "num";
             bindings = <
-    ___     &kp F1       &kp F2       &kp F3       &kp F4       ___          ___       &kp N1       &kp N2     &kp N3       ___      ___
-    ___     &kp F5       &kp F6       &kp F7       &kp F8       ___          ___       &kp N4       &kp N5     &kp N6       &kp N0   ___
-    ___     &kp F9       &kp F10      &kp F11      &kp F12      ___          ___       &kp N7       &kp N8     &kp N9       ___      ___
-                                  ___          ___          ___          ___       ___          ___
+    ___          &kp F1       &kp F2       &kp F3       &kp F4       ___          ___       &kp N7       &kp N8     &kp N9       ___      ___
+    ___          &kp F5       &kp F6       &kp F7       &kp F8       ___          ___       &kp N4       &kp N5     &kp N6       &kp N0   ___
+    ___          &kp F9       &kp F10      &kp F11      &kp F12      ___          ___       &kp N1       &kp N2     &kp N3       ___      ___
+                                           ___          ___          ___          ___       ___          ___
             >;
         };
 
         sym_layer {
             display-name = "sym";
             bindings = <
-    ___     &kp TILDE    &kp CARET    &kp AMPS     &kp PIPE     ___          ___       &kp UNDER    &kp EXCL   &kp DLLR     &kp DQT   ___
-    ___     &kp EXCL     &kp PLUS     &kp LPAR     &kp RPAR     &kp AMPS     &kp PIPE  &kp MINUS    &kp EQUAL  &kp UNDER    &kp STAR  &kp BSLH
-    ___     &kp CARET    &kp AT       &kp LBRC     &kp RBRC     &kp HASH     &kp GRAVE &kp LBKT     &kp RBKT   &kp PRCNT    &kp DLLR  &kp FSLH
-                                  ___          ___          ___          ___       ___          ___
+    ___          ___          ___          ___          ___          ___          ___       ___          ___        ___          ___       ___ 
+    &kp TILDE    &kp EXCL     &kp PLUS     &kp LPAR     &kp RPAR     &kp AMPS     &kp PIPE  &kp MINUS    &kp EQUAL  &kp UNDER    &kp STAR  ___
+    ___          &kp CARET    &kp AT       &kp LBRC     &kp RBRC     &kp HASH     &kp GRAVE &kp LBKT     &kp RBKT   &kp PRCNT    &kp DLLR  ___
+                                           ___          ___          ___          ___       ___          ___
             >;
         };
 
         nav_layer {
             display-name = "nav";
             bindings = <
-    ___     &kp C_BRI_DN &kp C_BRI_UP &kp C_VOL_DN &kp C_PP     ___          &kp PG_UP &kp HOME     &kp END    ___          &kp DEL  ___
-    ___     &kp LCTRL    &kp LALT     &kp LSHFT    &kp LCMD     ___          &kp LEFT  &kp DOWN     &kp UP     &kp RIGHT    &kp BSPC ___
-    ___     &bt BT_SEL 0 &bt BT_SEL 1 ___          &kp BL_TOG   ___          &kp PG_DN &kp C_PREV   &kp C_PP   ___          ___      ___
-                                  ___          ___          ___          ___       ___          ___
+    &kp C_BRI_DN &kp C_BRI_UP &kp C_VOL_DN &kp C_VOL_UP &kp C_PP     ___          ___         &kp PG_UP    &kp LA(LEFT)   &kp HOME   ___      ___
+    ___          &kp LCTRL    &kp LALT     &kp LSHFT    &kp LCMD     ___          &kp LEFT    &kp DOWN     &kp UP         &kp RIGHT  ___      ___
+    ___          ___          ___          ___          ___          ___          ___         &kp PG_DN    &kp LA(RIGHT)  &kp END    ___      ___    
+                                           ___          ___          ___          ___         ___          ___
             >;
         };
     };
