@@ -12,7 +12,7 @@ layers:
   - U
   - Y
   - ''''
-  - {type: none}
+  - Gui+`
   - $$mdi:keyboard-esc$$
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
@@ -24,7 +24,7 @@ layers:
   - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: I, h: '$$mdi:apple-keyboard-option$$'}
   - {t: O, h: '$$mdi:apple-keyboard-control$$'}
-  - {type: none}
+  - /
   - {type: none}
   - Z
   - X
@@ -36,13 +36,13 @@ layers:
   - ','
   - .
   - ;
-  - {type: none}
-  - {t: '$$mdi:keyboard-tab$$', h: num}
-  - $$mdi:keyboard-space$$
+  - \
+  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-space$$', h: sym}
   - nav
-  - sym
-  - $$mdi:backspace-outline$$
-  - {t: '$$mdi:keyboard-return$$', h: num}
+  - num
+  - {t: '$$mdi:backspace-outline$$', h: sym}
+  - $$mdi:keyboard-return$$
   num:
   - {type: none}
   - F1
@@ -51,9 +51,9 @@ layers:
   - F4
   - {type: none}
   - {type: none}
-  - '1'
-  - '2'
-  - '3'
+  - '7'
+  - '8'
+  - '9'
   - {type: none}
   - {type: none}
   - {type: none}
@@ -75,31 +75,31 @@ layers:
   - F12
   - {type: none}
   - {type: none}
-  - '7'
-  - '8'
-  - '9'
+  - '1'
+  - '2'
+  - '3'
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {type: none}
   - {type: none}
   - {type: held}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
   sym:
   - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - '~'
-  - ^
-  - '&'
-  - '|'
-  - {type: none}
-  - {type: none}
-  - _
-  - '!'
-  - $
-  - '"'
-  - {type: none}
-  - {type: none}
   - '!'
   - +
   - (
@@ -110,7 +110,7 @@ layers:
   - '='
   - _
   - '*'
-  - \
+  - {type: none}
   - {type: none}
   - ^
   - '@'
@@ -122,25 +122,25 @@ layers:
   - ']'
   - '%'
   - $
-  - /
-  - {type: none}
   - {type: none}
   - {type: none}
   - {type: held}
   - {type: none}
   - {type: none}
-  nav:
   - {type: none}
+  - {type: none}
+  nav:
   - {t: '$$mdi:lightbulb-on-outline$$', h: '$$mdi:minus$$'}
   - {t: '$$mdi:lightbulb-on-outline$$', h: '$$mdi:plus$$'}
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
+  - $$mdi:play-pause$$
+  - {type: none}
   - {type: none}
   - $$mdi:transfer-up$$
+  - Alt+$$mdi:arrow-left-bold$$
   - $$mdi:transfer-left$$
-  - $$mdi:transfer-right$$
   - {type: none}
-  - $$mdi:backspace-reverse-outline$$
   - {type: none}
   - {type: none}
   - $$mdi:apple-keyboard-control$$
@@ -152,18 +152,18 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:backspace-outline$$
   - {type: none}
   - {type: none}
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {type: none}
-  - $$mdi:rocket$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {type: none}
   - $$mdi:transfer-down$$
-  - $$mdi:skip-previous$$
-  - $$mdi:play-pause$$
-  - $$mdi:skip-next$$
+  - Alt+$$mdi:arrow-right-bold$$
+  - $$mdi:transfer-right$$
   - {type: none}
   - {type: none}
   - {type: none}
